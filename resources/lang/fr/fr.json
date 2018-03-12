@@ -1,0 +1,99 @@
+{
+  
+  /* EventCreateOrderSection.blade.php */
+  "Order Details": "Détails de la commande",
+  "Order Summary": "Résumé de la commande",
+  "FREE": "GRATUIT",
+  "Total": "Total",
+  "Please note you only have": "Veuillez noter que vous n'avez que",
+  "to complete this transaction before your tickets are re-released.": "pour terminer cette transaction avant que vous tickets ne soient remis à disposition.",
+  "Your Information": "Vos informations",
+  "Copy buyer details to all ticket holders": "Recopier les détails de l'acheteur vers tous les détenteurs de ticket",
+  "Ticket Holder Information": "Information sur le détenteur du ticket",
+  "Ticket Holder": "Détenteur de ticket",
+  "Details": ", détails",
+  "Payment Information": "Information de paiement",
+  "Offline Payment Instructions": "Instructions pour le paiement hors-ligne",
+  
+  /* EventTicketsSection.blade.php */
+  "Event Details": "Détails de l'événement",
+  
+  /* EventFooterSection.blade.php */
+  "Event Dashboard": "Tableau de bord de l'événement",
+  "Organiser Dashboard": "Tableau de bord de l'organisateur",
+  
+  /* EventHeaderSection.blade.php */
+  "This event is not visible to the public": "Cet événement n'est pas visible par le public",
+  "Publish Event": "Publier l'événement",
+  "Presents": "présente",
+  "TICKETS": "TICKETS",
+  "DETAILS": "DETAILS",
+  "LOCATION": "LOCALISATION",
+  
+  /* EventOrganiserSection.blade.php */
+  "Organiser Page": "Page de l'organisateur",
+  "Your Name": "Votre nom",
+  "Your E-mail Address": "Votre adresse e-mail",
+  "Your Message": "Votre message",
+  "Send Message": "Envoyer le message",
+  
+  /* EventShareSection.blade.php */
+  "Check This Out": "Regarde ça",
+  
+  /* EventTicketsSection.blade.php */
+  "This event has already started": "Cet événement a déjà démarré",
+  "This event has ended": "Cet événement est terminé",
+  "Currently Not On Sale": "Pas en vente actuellement",
+  "Sold Out": "Epuisé",
+  "Sales Have Not Started": "La vente n'a pas encore débuté",
+  "Sales Have Ended": "La vente est terminée",
+  "Offline Payment Methods Available": "Méthodes disponibles pour le paiement hors-ligne",
+  "Tickets are currently unavailable.": "Les tickets ne sont pas disponibles actuellement",
+  
+  /* EventViewInvoiceSection.blade.php */
+  "Invoice / December Period": "Facture / période de décembre",
+  "Invoice ID": "Identifiant facture",
+  "Ticket Title": "Titre du ticket",
+  "Quantity": "Quantité",
+  "Price": "Prix",
+  "Total": "Total",
+  "SUB TOTAL": "SOUS-TOTAL",
+  "TAXES &amp; FEES": "TAXES &amp; FRAIS",
+  "TOTAL PAYABLE": "TOTAL A PAYER",
+  
+  /* EventViewOrderSection.blade.php */
+  "Thank you for your order!": "Merci pour votre commande !",
+  "Download Tickets": "Télécharger les tickets",
+  "Your tickets": "Vos tickets",
+  "and a confirmation email have been sent to you.": "et un e-mail de confirmation vous ont été envoyés",
+  "First Name": "Prénom",
+  "Last Name": "Nom de famille",
+  "Amount": "Quantité",
+  "Reference": "Référence",
+  "Date": "Date",
+  "Email": "e-mail",
+  "Payment Instructions": "Instructions de paiement",
+  "This order is awaiting payment. Please read the below instructions on how to make payment.": "Cette commande est en attente de paiement. Veuillez lire les instructions ci-dessous pour faire votre paiement.",
+  "Order Items": "Contenu de la commande",
+  "Ticket": "Ticket",
+  "Quantity": "Quantité",
+  "Price": "Prix",
+  "Booking Fee": "Frais de réservation",
+  "Total": "Total",
+  "Refunded Amount": "Quantité remboursée",
+  "Order Attendees": "Participants de la commande",
+  "Cancelled": "Annulé",
+  
+  /* PDFTicket.blade.php */
+  "Event": "Evénement",
+  "Organiser": "Organisateur",
+  "Venue": "Lieu",
+  "Start Date / Time": "Date / Heure de début",
+  "End Date / Time": "Date / Heure de fin",
+  "Name": "Nom",
+  "Ticket Type": "Type de ticket",
+  "Order Ref.": "Réf. de commande",
+  "Attendee Ref.": "Réf. de participant",
+  "inc.": "dont",
+  "Fees": "de frais",
+}

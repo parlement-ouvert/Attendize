@@ -7,7 +7,7 @@
 
     @if($event->start_date->isPast())
         <div class="alert alert-boring">
-            This event has {{($event->end_date->isFuture() ? 'already started' : 'ended')}}.
+            {{($event->end_date->isFuture() ? __('This event has already started') : __('This event has ended'))}}.
         </div>
     @else
 
@@ -53,7 +53,7 @@
                                             @if($ticket->is_paused)
 
                                                 <span class="text-danger">
-                                    Currently Not On Sale
+                                    {{__('Currently Not On Sale')}}
                                 </span>
 
                                             @else
@@ -61,15 +61,15 @@
                                                 @if($ticket->sale_status === config('attendize.ticket_status_sold_out'))
                                                     <span class="text-danger" property="availability"
                                                           content="http://schema.org/SoldOut">
-                                    Sold Out
+                                    {{__('Sold Out')}}
                                 </span>
                                                 @elseif($ticket->sale_status === config('attendize.ticket_status_before_sale_date'))
                                                     <span class="text-danger">
-                                    Sales Have Not Started
+                                    {{__('Sales Have Not Started')}}
                                 </span>
                                                 @elseif($ticket->sale_status === config('attendize.ticket_status_after_sale_date'))
                                                     <span class="text-danger">
-                                    Sales Have Ended
+                                    {{__('Sales Have Ended')}}
                                 </span>
                                                 @else
                                                     {!! Form::hidden('tickets[]', $ticket->id) !!}
@@ -99,7 +99,7 @@
                                                 @if($event->enable_offline_payments)
 
                                                     <div class="help-block" style="font-size: 11px;">
-                                                        Offline Payment Methods Available
+                                                        {{__("Offline Payment Methods Available")}}
                                                     </div>
                                                 @endif
 
@@ -120,7 +120,7 @@
         @else
 
             <div class="alert alert-boring">
-                Tickets are currently unavailable.
+                {{__("Tickets are currently unavailable.")}}
             </div>
 
         @endif
